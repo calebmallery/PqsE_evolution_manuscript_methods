@@ -1,2 +1,0 @@
-anvi-script-reformat-fasta --seq-type NT pqsE_nt.txt -o pqsE_nt_reformatted.fasta
-anvi-gen-contigs-database -f pqsE_nt_reformatted.fasta -n pqsE -o contigs.db
