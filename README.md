@@ -3,7 +3,7 @@
 This repository contains the packages used, commands issued, and raw files to generate figures 1A and 1B for the manuscript titled "Evolution of the metallo-β-hydrolase and LuxR-type protein-protein interaction in Pseudomonas and Burkholderia reveals species-specific mechanisms of quorum-sensing gene regulation". The goal of this repository is to increase transparency and reproducibility.
 
 # Phylogenetic analyses
-Input files and commands issued to generate phylogenetic trees:
+All input files can be found in the Data folder. Commands issued to generate phylogenetic trees can be found in the following markdown files:
 - `PqsE_HhqE_orthologue__shortlist_workflow.md` markdown file containing the commands issued to generate figure 1A.
 - `PqsE_HhqE_orthologue__workflow.md` markdown file containing the commands issued to generate figure 1B.
 
