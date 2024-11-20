@@ -8,7 +8,7 @@ Some species names had "assembly" tacked onto the end. To get rid of that:
     
     I searched for \s-\sAssembly\s and replaced with "_"
 
-I followed the same as above for `PqsE_ortholog.csv` except none of the species names had "assembly" on the end
+I followed the same as above for `PqsE_ortholog.csv`.
 
 The two cleaned files were renamed `PqsE_ortholog.faa` and `HhqE_ortholog.faa` and concatonated into one file `PqsE_HhqE_ortholog.faa`
 
@@ -23,6 +23,8 @@ Trimmed with trimal
     trimal -in PqsE_HhqE_ortholog_aln.faa -out PqsE_HhqE_ortholog_aln_trm.faa -keepheader 
 > Note: The '**-keepheader**' option sepcifies to keep headers, I've had unfortunate times with trimal stealing my headers without
 
-Tree made with iTOL
+Tree made with iqtree
 
     iqtree -s PqsE_HhqE_ortholog_aln_trm.faa -bb 1000 -m
+
+The file `PqsE_HhqE_ortholog_aln_trm.faa.treefile` was uploaded to iTOL for visualization
