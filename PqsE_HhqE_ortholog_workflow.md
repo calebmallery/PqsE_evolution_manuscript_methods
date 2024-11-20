@@ -14,6 +14,16 @@ The two cleaned files were renamed `PqsE_ortholog.faa` and `HhqE_ortholog.faa` a
 
     cat PqsE_ortholog.faa HhqE_ortholog.faa > PqsE_HhqE_ortholog.faa
 
+Some sequence names still sucked and were too janky for MUSCLE, so I removed the symbols with the following sed commands
+
+   
+    sed -i 's/ /_/g' pqsE_orthologs.faa
+    sed -i 's/-/_/g' pqsE_orthologs.faa
+    sed -i 's/[.]/_/g' pqsE_orthologs.faa
+    sed -i 's/#/_/g' pqsE_orthologs.faa
+    sed -i 's/[/]/_/g' pqsE_orthologs.faa
+    sed -i 's/__/_/g' pqsE_orthologs.faa
+
 Sequence was aligned with MUSCLE
 
     muscle -in PqsE_HhqE_ortholog.faa -out PqsE_HhqE_ortholog_aln.faa
