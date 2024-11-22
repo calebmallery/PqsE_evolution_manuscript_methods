@@ -1,6 +1,6 @@
 
 # Manuscript code repository
-This repository contains the packages used, commands issued, and raw files to generate figures 1A and 1B for the manuscript titled "Evolution of the metallo-β-hydrolase and LuxR-type protein-protein interaction in Pseudomonas and Burkholderia reveals species-specific mechanisms of quorum-sensing gene regulation". The goal of this repository is to increase transparency and reproducibility.
+This repository contains the packages used, commands issued, and raw files to generate figures 1A and 1B for the manuscript titled "Evolution of PqsE as a Pseudomonas aeruginosa-specific regulator of LuxR-type receptor regulation: Evolutionary insights from Pseudomonas and Burkholderia". The goal of this repository is to increase transparency and reproducibility.
 
 # Phylogenetic analyses
 All input files can be found in the Data folder. Commands issued to generate phylogenetic trees can be found in the following markdown files:
